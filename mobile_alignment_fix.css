@@ -1,0 +1,160 @@
+/* Mobile Alignment Fixes */
+
+/* Fix logo and tagline alignment on mobile */
+@media (max-width: 768px) {
+    .logo-wrapper {
+        margin-right: auto;
+    }
+    
+    .logo {
+        font-size: 1.3rem !important;
+        letter-spacing: 1px !important;
+    }
+    
+    .logo-tagline {
+        font-size: 0.7rem !important;
+        margin-top: -8px;
+    }
+    
+    nav {
+        padding: 0.8rem 0 !important;
+        align-items: center;
+    }
+    
+    header {
+        padding: 0.5rem 3% !important;
+    }
+    
+    /* Better menu toggle positioning */
+    .menu-toggle {
+        margin-left: auto;
+    }
+    
+    /* Fix navigation menu alignment */
+    .nav-menu {
+        padding-top: 80px !important;
+        gap: 1rem !important;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-menu li {
+        margin: 0.5rem 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* Fix mobile content padding */
+    .hero {
+        margin-top: 60px !important;
+    }
+    
+    .hero-content {
+        padding: 0 1rem;
+        text-align: center;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .hero-title .accent {
+        font-size: 2.5rem !important;
+        display: block;
+        margin: 0.5rem 0;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem !important;
+        letter-spacing: 1px !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .hero-description {
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+        margin-bottom: 1.5rem !important;
+        padding: 0 1rem;
+    }
+    
+    /* Fix button alignment */
+    .hero-cta-group {
+        padding: 0 1rem;
+    }
+    
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    
+    /* Fix section padding */
+    .services, .experience, .gallery, .contact {
+        padding: 3rem 3% !important;
+    }
+    
+    .section-header {
+        margin-bottom: 3rem !important;
+        padding: 0 1rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem !important;
+    }
+    
+    /* Fix service cards */
+    .services-luxury-grid {
+        padding: 0 1rem;
+    }
+    
+    .service-card {
+        margin-bottom: 2rem;
+    }
+    
+    /* Fix contact form */
+    .contact-form {
+        padding: 1.5rem !important;
+        margin: 0 1rem;
+    }
+    
+    /* Fix footer */
+    footer {
+        padding: 2rem 3% !important;
+        text-align: center;
+    }
+    
+    .footer-content p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.1rem !important;
+    }
+    
+    .logo-tagline {
+        font-size: 0.65rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem !important;
+    }
+    
+    .hero-title .accent {
+        font-size: 2rem !important;
+    }
+    
+    .section-title {
+        font-size: 1.8rem !important;
+    }
+    
+    /* Ensure proper spacing */
+    .hero-content, .service-content, .contact-content {
+        padding: 0 0.5rem;
+    }
+}
